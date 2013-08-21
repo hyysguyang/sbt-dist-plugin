@@ -4,16 +4,14 @@ sbt-dist-plugin
 A sbt plugin to build a executable dist distribution files.
 
 
-How build it?
-==============
+### How to build it?
 
 ```bash
 git clone https://github.com/hyysguyang/sbt-dist-plugin.git
 cd sbt-dist-plugin && sbt publish-local
 ```
 
-How to use it?
-==============
+### How to use it?
 
 ```scala
   import com.lifecosys.sbt.DistPlugin
@@ -39,3 +37,16 @@ To clean generated dist files:
 ```bash
 sbt dist:clean
 ```
+
+
+### Credits
+
+The original code for this project based upon [akka] sbt plugin.
+
+
+### License
+
+_sbt-dist-plugin_ is licensed under [APL 2.0].
+
+
+  [akka]: https://github.com/akka/akka
